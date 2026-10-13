@@ -1,0 +1,20 @@
+# 忽略工作产物，不进入版本控制
+
+# 打包产物（仓库本身即交付物，不需要额外 zip）
+*.zip
+
+# 临时与备份
+*.bak
+*.bak-*
+*.tmp
+
+# 编辑器与系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 各端工具目录（若在此目录内误落）
+.claude/
+.codex/
+.dsh/
+.agents/
